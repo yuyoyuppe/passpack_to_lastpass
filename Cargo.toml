@@ -1,0 +1,12 @@
+[package]
+name = "passpack_to_lastpass"
+version = "1.0.0"
+authors = ["yuyoyuppe <a.yuyoyuppe@gmail.com>"]
+edition = "2018"
+
+
+[dependencies]
+anyhow = "*"
+csv = "1"
+serde = { version = "1", features = ["derive"] }
+structopt = "0"
